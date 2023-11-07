@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Book.Serv1ce;
+
+AllBookInfo allBookInfo = new AllBookInfo();
+allBookInfo.SearchBook("Ufq");
